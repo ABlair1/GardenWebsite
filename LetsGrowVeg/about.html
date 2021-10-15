@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Grow Veg: Growing Vegetables at Home</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Title banner -->
+
+        <div class="banner">
+            <img class="banner_img" src="images/banner/banner.jpg">
+        </div>
+
+        <!-- Naigation bar -->
+
+        <div class="nav_box">
+            <!-- <img src="lets_grow_icon.png" class="logo"> -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li> |
+                    <li><a href="getting_started.html">Getting Started</a></li> |
+                    <li><a href="making_moves.html">Making Moves</a></li> |
+                    <li><a href="watch_them_grow.html">Watch Them Grow</a></li> |
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page content -->
+
+    <h1>About Us </h1>
+    <section>
+        <p class="text-content">
+            Hello! My name is Andrew and I live in Maryland with my wife Monica and our hound dog Suzie.
+            I'm currently a Computer Science student, but I have worked in horticulture in the past.
+            My wife and I both love cooking and eating fresh veggies, which inspired us to cultivate a
+            passion for growing some of our own food at home. As of 2021, we have been gardening in
+            one way or another for 3 years. Suzie has only joined our team this year, but she is already
+            the most enthusiastic helper of us all. Her primary responsibilities are keeping morale high
+            and defending the plants from marauding rabbits and squirrels. I hope you enjoy the website
+            and enjoying the picture of Suzie at the bottom of this page.
+        </p>
+        <p class="text-content">
+            Please feel free to contact us below with any questions you may have regarding our garden
+            or plans for your garden. I may not have all of the answers, but I can at least try to
+            point you in the right direction. Cheers!
+        </p>
+        <form class="contact-form" id="contact_form">
+            <fieldset>
+                <legend class="contact-legend">Contact Us</legend>
+                <p>
+                <fieldset>
+                    <label>Your Name:
+                        <input type="text" name="name_input" id="user_name">
+                    </label>
+                </fieldset>
+                </p>
+                <p>
+                <fieldset>
+                    <label>Your Email:
+                        <input type="email" name="email_input" id="user_email">
+                    </label>
+                </fieldset>
+                </p>
+                <p>
+                <fieldset>
+                    <label>Comments and Questions:
+                        <textarea form="contact_form" class="comment-box" name="comment_input" rows="5"
+                            cols="40" id="user_comment"></textarea>
+                    </label>
+                </fieldset>
+                </p>
+                <p>
+                    <button form="contact_form" type="submit" id="contact_form_submit">Submit</button>
+                </p>
+                <p>
+                    <output id="formConfirmation"></output>
+                </p>
+            </fieldset>
+        </form>
+        <div class="image-content">
+            <img class="image-content last-element" src="images/about/IMG_1426.JPG">
+        </div>
+    </section>
+    <script src="about_script.js"></script>
+</body>
+
+</html>

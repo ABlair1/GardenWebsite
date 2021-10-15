@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Grow Veg: Growing Vegetables at Home</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Title banner -->
+
+        <div class="banner">
+            <img class="banner_img" src="images/banner/banner.jpg">
+        </div>
+
+        <!-- Naigation bar -->
+
+        <div class="nav_box">
+            <!-- <img src="lets_grow_icon.png" class="logo"> -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li> |
+                    <li><a href="getting_started.html">Getting Started</a></li> |
+                    <li><a href="making_moves.html">Making Moves</a></li> |
+                    <li><a href="watch_them_grow.html">Watch Them Grow</a></li> |
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Statement of purpose for website -->
+
+    <section>
+        <h1>Growing Vegetables at Home</h1>
+        <p class="text-content">
+            Do you love enjoying fresh vegetables? Are you interested in a hobby that will
+            encourage you to get out and enjoy the fresh air and sun? Gardening can be an
+            extremely rewarding hobby and anyone can start growing delicious produce right
+            in their own home.
+        </p>
+        <p class="text-content">
+            This website is here to help you figure out where to start
+            and provide some useful tips for getting a vegetable garden up and running.
+            Take a look around and visit the <a href="getting_started.html">getting started</a> page to learn more.
+        </p>
+    </section>
+
+    <!-- Image carousel (slideshow) -->
+
+    <div class="carousel">
+        <div class="carousel_box">
+            <ul class="carousel_slideshow">
+                <li class="carousel_slide last-element current_slide" id="slide0"><img class="slide_image" src="images/home_slider/IMG_0262.JPG"></li>
+                <li class="carousel_slide last-element" id="slide1"><img class="slide_image" src="images/home_slider/IMG_0450.JPG"></li>
+                <li class="carousel_slide last-element" id="slide2"><img class="slide_image" src="images/home_slider/IMG_0452.JPG"></li>
+                <li class="carousel_slide last-element" id="slide3"><img class="slide_image" src="images/home_slider/IMG_0463.JPG"></li>
+            </ul>
+        </div>
+        <!-- Left and right arrow buttons from https://www.svgrepo.com/ -->
+        <button class="slideshow_button" id="left_slideshow_button"><img
+                src="images/home_slider/left-arrow-back-svgrepo-com.svg"></button>
+        <button class="slideshow_button" id="right_slideshow_button"><img
+                src="images/home_slider/right-arrow-next-svgrepo-com.svg"></button>
+        <!-- <div class="slideshow_indicators">
+            <button class="indicator current_indicator"></button>
+            <button class="indicator"></button>
+            <button class="indicator"></button>
+            <button class="indicator"></button>
+        </div> -->
+    </div>
+
+    <script src="home_script.js"></script>
+</body>
+
+</html>
